@@ -1,5 +1,6 @@
 # ToggleSwitch
-> A simple toggle switch widget extension for the Qt library 
+
+> Toggle switch widget extension for the Qt library
 
 ## License
 
