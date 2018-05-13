@@ -1,5 +1,29 @@
 # ToggleSwitch
-> A simple toggle switch widget extension for the Qt library 
+
+> Toggle switch widget extension for the Qt library
+
+## Usage
+
+It is possible to use this custom widget lika any other standart Qt widget. Just link the library to your project
+and include the header file ```toggleswitch.hpp```.
+
+```cpp
+#include <QApplication>
+#include <QMainWindow>
+#include <toggleswitch.hpp>
+
+int main(int argc, char **argv)
+{
+    QApplication application(argc, argv);
+    QMainWindow mainWindow;
+    
+    ToggleSwitch *toggleSwitch = new ToggleSwitch(&mainWindow);
+    toggleSwitch->setStatus(false);
+    
+    mainWindow.show();
+    return application.exec();
+}
+```
 
 ## License
 
